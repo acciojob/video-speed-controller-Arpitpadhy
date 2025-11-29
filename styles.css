@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+:root {
+  --spacing: 10px;
+  --blur: 10px;
+  --base: #ffc600;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+body {
+  text-align: center;
+  background: #f4f4f4;
+  font-family: sans-serif;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
